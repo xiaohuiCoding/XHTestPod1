@@ -3,20 +3,25 @@
   "version": "0.1.0",
   "summary": "A short description of XHTestPod1.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/liuzhudemeng/XHTestPod1",
+  "homepage": "https://github.com/xiaohuiCoding/XHTestPod1",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "liuzhudemeng": "1525328738@qq.com"
+    "xiaohuiCoding": "2384618767@qq.com"
   },
   "source": {
-    "git": "https://github.com/liuzhudemeng/XHTestPod1.git",
+    "git": "https://github.com/xiaohuiCoding/XHTestPod1.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "XHTestPod1/Classes/**/*"
+  "source_files": "XHTestPod1/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 3.0"
+    ]
+  }
 }
