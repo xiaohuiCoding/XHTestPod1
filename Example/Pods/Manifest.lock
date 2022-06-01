@@ -1,0 +1,16 @@
+PODS:
+  - XHTestPod1 (0.1.0)
+
+DEPENDENCIES:
+  - XHTestPod1 (from `../`)
+
+EXTERNAL SOURCES:
+  XHTestPod1:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XHTestPod1: f6111223f1fc5c2ea871aeaead2a3be9807ee21c
+
+PODFILE CHECKSUM: f5c7bbf447e6f93488d1aedb1deeab98a39c10d6
+
+COCOAPODS: 1.11.3
