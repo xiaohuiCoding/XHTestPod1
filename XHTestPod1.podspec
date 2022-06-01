@@ -21,16 +21,18 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/liuzhudemeng/XHTestPod1'
+  s.homepage         = 'https://github.com/xiaohuiCoding/XHTestPod1'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'liuzhudemeng' => '1525328738@qq.com' }
-  s.source           = { :git => 'https://github.com/liuzhudemeng/XHTestPod1.git', :tag => s.version.to_s }
+  s.author           = { 'xiaohuiCoding' => '2384618767@qq.com' }
+  s.source           = { :git => 'https://github.com/xiaohuiCoding/XHTestPod1.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'XHTestPod1/Classes/**/*'
+#  s.source_files = 'TestABC3/*.{h,m}' #这种是将class文件夹删除，直接将代码文件放到和原class文件夹同级的路径下
+
   
   # s.resource_bundles = {
   #   'XHTestPod1' => ['XHTestPod1/Assets/*.png']
@@ -38,5 +40,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+#  s.dependency 'AFNetworking', '~> 3.0'
 end
